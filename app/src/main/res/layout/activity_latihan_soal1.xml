@@ -52,6 +52,7 @@
         android:layout_marginTop="140dp"/>
 
     <ScrollView
+        android:id="@+id/sv_btn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/v_garis">
@@ -100,24 +101,27 @@
             android:layout_margin="10dp"
             android:background="@drawable/rounded_corners_bg"
             android:fontFamily="@font/poppins" />
-
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:background="#C4C4C4"
-            android:layout_marginTop="50dp"/>
-
-        <Button
-            android:id="@+id/next"
-            android:layout_width="130dp"
-            android:layout_height="55dp"
-            android:background="@drawable/btn_next"
-            android:enabled="false"
-            android:fontFamily="@font/poppins"
-            android:alpha="0.7"
-            android:layout_marginTop="40dp"
-            android:layout_marginLeft="100dp"/>
-
     </LinearLayout>
+    </ScrollView>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sv_btn">
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#C4C4C4"
+        android:layout_marginTop="500dp"/>
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="110dp"
+        android:layout_height="45dp"
+        android:background="@drawable/btn_next"
+        android:enabled="false"
+        android:fontFamily="@font/poppins"
+        android:alpha="0.7"
+        android:layout_marginTop="530dp"
+        android:layout_marginLeft="230dp"/>
     </ScrollView>
 </RelativeLayout>
