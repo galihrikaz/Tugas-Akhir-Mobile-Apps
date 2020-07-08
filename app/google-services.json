@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "744905594382",
+    "firebase_url": "https://ilmu-bahasa-inggris.firebaseio.com",
+    "project_id": "ilmu-bahasa-inggris",
+    "storage_bucket": "ilmu-bahasa-inggris.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:744905594382:android:d6a158cf3b3dca28ce8e5f",
+        "android_client_info": {
+          "package_name": "com.example.ilmubahasainggris"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "744905594382-cn0jbkjkpqt15p287nr06ffq11rl5l4f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKGSSqY7d9n5zqIxiJ4eMlf6bp_PfwFwU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "744905594382-cn0jbkjkpqt15p287nr06ffq11rl5l4f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

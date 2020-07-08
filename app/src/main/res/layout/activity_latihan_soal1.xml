@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    tools:context=".LatihanSoal.LatihanSoal1Activity">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#FFC107"></View>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="30dp">
+
+            <TextView
+                android:id="@+id/pertanyaan"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:background="@drawable/view_soal"
+                android:textColor="@android:color/black"
+                android:padding="16dp"
+                android:fontFamily="@font/poppins"
+                android:layout_margin="16dp"
+                android:textStyle="bold"
+                android:text="Linguistic" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/no_indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1/10"
+        android:fontFamily="@font/poppins"
+        android:textSize="16sp"
+        android:layout_marginTop="103dp"
+        android:layout_marginStart="8dp"/>
+
+    <View
+        android:id="@+id/v_garis"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#C4C4C4"
+        android:layout_marginTop="140dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/v_garis">
+
+    <LinearLayout
+        android:id="@+id/options_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="25dp">
+
+
+        <Button
+            android:id="@+id/pilihan_a"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:layout_margin="10dp"
+            android:background="@drawable/rounded_corners_bg"
+            android:fontFamily="@font/poppins" />
+
+        <Button
+            android:id="@+id/pilihan_b"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:layout_margin="10dp"
+            android:background="@drawable/rounded_corners_bg"
+            android:fontFamily="@font/poppins" />
+
+        <Button
+            android:id="@+id/pilihan_c"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:layout_margin="10dp"
+            android:background="@drawable/rounded_corners_bg"
+            android:fontFamily="@font/poppins" />
+
+        <Button
+            android:id="@+id/pilihand_d"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:layout_margin="10dp"
+            android:background="@drawable/rounded_corners_bg"
+            android:fontFamily="@font/poppins" />
+
+    </LinearLayout>
+    </ScrollView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#C4C4C4"
+        android:layout_marginTop="500dp"/>
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:background="@drawable/btn_next"
+        android:enabled="false"
+        android:fontFamily="@font/poppins"
+        android:alpha="0.7"
+        android:layout_marginTop="530dp"
+        android:layout_marginLeft="250dp"/>
+</RelativeLayout>

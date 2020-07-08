@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ilmubahasainggris">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".LatihanSoal.ScoreActivity"></activity>
+        <activity android:name=".LatihanSoal.LatihanSoal1Activity"></activity>
+        <activity
+            android:name=".VideoMateri.VideoMateri8Activity"
+            android:theme="@style/Theme.AppCompat.Light">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Materi.Materi8Activity" />
+        </activity>
+        <activity
+            android:name=".VideoMateri.VideoMateri7Activity"
+            android:theme="@style/Theme.AppCompat.Light">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Materi.Materi7Activity" />
+        </activity>
+        <activity
+            android:name=".VideoMateri.VideoMateri6Activity"
+            android:theme="@style/Theme.AppCompat.Light">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Materi.Materi6Activity" />
+        </activity>
+        <activity
+            android:name=".VideoMateri.VideoMateri5Activity"
+            android:theme="@style/Theme.AppCompat.Light">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Materi.Materi5Activity" />
+        </activity>
+        <activity
+            android:name=".VideoMateri.VideoMateri4Activity"
+            android:theme="@style/Theme.AppCompat.Light">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Materi.Materi4Activity" />
+        </activity>
+        <activity
+            android:name=".VideoMateri.VideoMateri3Activity"
+            android:theme="@style/Theme.AppCompat.Light">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Materi.Materi3Activity" />
+        </activity>
+        <activity
+            android:name=".VideoMateri.VideoMateri2Activity"
+            android:theme="@style/Theme.AppCompat.Light">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Materi.Materi2Activity" />
+        </activity>
+        <activity
+            android:name=".VideoMateri.VideoMateri1Activity"
+            android:theme="@style/Theme.AppCompat.Light">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Materi.MateriActivity" />
+        </activity>
+        <activity android:name=".Materi.Materi8Activity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MenuMateriActivity" />
+        </activity>
+        <activity android:name=".Materi.Materi7Activity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MenuMateriActivity" />
+        </activity>
+        <activity android:name=".Materi.Materi6Activity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MenuMateriActivity" />
+        </activity>
+        <activity android:name=".Materi.Materi5Activity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MenuMateriActivity" />
+        </activity>
+        <activity android:name=".Materi.Materi4Activity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MenuMateriActivity" />
+        </activity>
+        <activity android:name=".Materi.Materi3Activity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MenuMateriActivity" />
+        </activity>
+        <activity android:name=".Materi.Materi2Activity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MenuMateriActivity" />
+        </activity>
+        <activity android:name=".Materi.MateriActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MenuMateriActivity" />
+        </activity>
+        <activity
+            android:name=".SplashScreenActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MenuUtama.MainActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity android:name=".ProfilActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MenuUtama.MainActivity" />
+        </activity>
+        <activity android:name=".MenuMateriActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MenuUtama.MainActivity" />
+        </activity>
+        <activity android:name=".MenuLatihanActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MenuUtama.MainActivity" />
+        </activity>
+    </application>
+
+</manifest>
